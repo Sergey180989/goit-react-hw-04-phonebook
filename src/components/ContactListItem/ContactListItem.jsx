@@ -4,7 +4,8 @@ export function ContactListItem({ name, number, onButtonDelete, buttonId }) {
       {name}: <span>{number}</span>
       <button
         id={buttonId}
-        onClick={onButtonDelete}>
+        onClick={onButtonDelete}
+        >
         Delete
       </button>
     </li>

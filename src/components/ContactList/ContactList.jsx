@@ -9,7 +9,7 @@ export function ContactList({ contacts, onButtonDelete }) {
           key={id}
           name={name}
           number={number}
-          onButtonDelete={() => onButtonDelete(id)}
+          onButtonDelete={onButtonDelete}
           buttonId={id}
         />
       ))}
